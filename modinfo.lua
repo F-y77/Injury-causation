@@ -1,7 +1,7 @@
 name = "伤害构成"
 description = "玩家死亡时在聊天框显示伤害构成（可自定义统计时长、公告名称；超级模式死亡时只显示前五名）。"
 author = "橙小幸"
-version = "1.4.0"
+version = "1.4.1"
 
 dst_compatible = true
 dont_starve_compatible = false
@@ -10,6 +10,9 @@ shipwrecked_compatible = false
 
 client_only_mod = false
 all_clients_require_mod = true
+
+icon_atlas = "modicon.xml"
+icon = "modicon.tex"
 
 -- 配置选项
 configuration_options = {
